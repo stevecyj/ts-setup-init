@@ -1,5 +1,5 @@
 let price = 999;
-price = false;
+// price = false;
 
 let cost: any = 999;
 cost = false;
