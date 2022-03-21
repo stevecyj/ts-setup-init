@@ -6,7 +6,7 @@ let name2: unknown = 'mary';
 let name3 = name2 as string;
 
 // 斷言應用
-async function getData() {
+async function getDData() {
   const res = await fetch('https://jsonplaceholder.typicode.com/todos/1');
   const data = (await res.json()) as {
     userId: number;
@@ -16,7 +16,7 @@ async function getData() {
   };
   console.log(data);
 }
-getData();
+getDData();
 // any, unknown
 // unknown 是比較安全的 any
 

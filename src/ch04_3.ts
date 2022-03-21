@@ -36,4 +36,4 @@ interface Animal {
   age: number;
 }
 
-let dog: Animal = {};
+// let dog: Animal = {};
