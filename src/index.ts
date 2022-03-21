@@ -14,4 +14,5 @@ import './index.css';
 // import './ch05_4';
 
 // import './ch06_1';
-import './ch06_2';
+// import './ch06_2';
+import './ch06_3';
